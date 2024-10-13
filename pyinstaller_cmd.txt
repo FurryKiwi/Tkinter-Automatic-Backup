@@ -1,0 +1,12 @@
+# Basic pyinstaller cmd
+pyinstaller -F --clean --icon=backup.ico --add-data "backup.ico":. --hidden-import pystray AutomaticBackup.py
+
+or
+
+# Using the upx compression with spec file
+pyinstaller --upx-dir "Path-To-UPX" AutomaticBackup.spec
+
+or
+
+# Preferred method is setting up the spec file and running either this or the above.
+pyinstaller AutomaticBackup.spec
