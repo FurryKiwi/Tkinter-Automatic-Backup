@@ -1,6 +1,10 @@
 # Tkinter-Automatic-Backup
 A basic auto backup program using Pystray and Tkinter.
 
+Dependencies:
+  - Pystray
+  - ConfigUpdater
+
 Functions:
   - Rotate Backups up to a specified number of backups.
   - Compression to zip files.
