@@ -72,8 +72,6 @@ class ProfileWindow(tk.Toplevel):
 
         ttk.Radiobutton(frame2_0, text="Rotate", takefocus=False, variable=self.method_var, value="Rotate",
                         command=lambda: self.set_backup_method("Rotate")).pack(side='left')
-        ttk.Radiobutton(frame2_0, text="OnModified", takefocus=False, variable=self.method_var, value="OnModified",
-                        command=lambda: self.set_backup_method("OnModified")).pack(side='left')
         ttk.Radiobutton(frame2_0, text="Daily", takefocus=False, variable=self.method_var, value="Daily",
                         command=lambda: self.set_backup_method("Daily")).pack(side='left')
 
