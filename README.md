@@ -12,5 +12,7 @@ All functions can be utilized either through the GUI provided with Tkinter or wi
 
 The three classes 'Controller', 'BackupThread' and 'WindowIcon' can be utilized by themselves without the GUI if you want, a few lines specified by comments would need to be changed to do so but it can work compeletely seperate.
 Or if you're wanting a different GUI framework like PyQT, you could easily implement a seperate GUI into the program utilizing the other 3 classes.
+
 ![Capture](https://github.com/user-attachments/assets/f16c8347-7663-4e1c-8aae-1ba969789aaf)
+
 ![Capture1](https://github.com/user-attachments/assets/984bc61a-ab61-489c-9149-397b20b55405)
